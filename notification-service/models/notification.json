@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "cef2c5f0-bcdb-11ed-9b77-553da602417b",
+    "createdAt": "2023-03-07T11:32:57.423Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking is done!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "e30cccc0-bcdb-11ed-be7c-5bf134703d15",
+    "createdAt": "2023-03-07T11:33:31.148Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking is done!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "f9fb2940-bcdb-11ed-8370-452e48982d87",
+    "createdAt": "2023-03-07T11:34:09.620Z",
+    "userId": "D8DFAFSDC",
+    "notificationMessage": "Your booking got cancelled!",
+    "type": ["In-App", "Email", "Sms"]
+  },
+  {
+    "id": "c5303aa0-bcdd-11ed-9569-d3529370694e",
+    "createdAt": "2023-03-07T11:47:00.042Z",
+    "userId": "ASF54F65SS",
+    "notificationMessage": "Your booking got confirmed",
+    "type": ["In-App", "Email", "Sms"]
+  },
+  {
+    "id": "0d70a980-bd1a-11ed-8ef2-33e9d637e5a8",
+    "createdAt": "2023-03-07T18:58:31.064Z",
+    "userId": "0d4c58a0-bd1a-11ed-9934-47bfab598caf",
+    "notificationMessage": "ram has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "3421c0a0-bd1a-11ed-b322-61df9384da74",
+    "createdAt": "2023-03-07T18:59:35.978Z",
+    "userId": "340d4e40-bd1a-11ed-9656-51f0333cd8c7",
+    "notificationMessage": "sujay has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ab03dd70-bd1a-11ed-80cc-19689d2d8d3f",
+    "createdAt": "2023-03-07T19:02:55.431Z",
+    "userId": "aaf1b500-bd1a-11ed-8076-23c753ca4978",
+    "notificationMessage": "Rahul has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "041060d0-bd7c-11ed-aa41-a3a192d63913",
+    "createdAt": "2023-03-08T06:39:46.013Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment is successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ab669870-bd7e-11ed-a8b0-a3e310d0829c",
+    "createdAt": "2023-03-08T06:58:45.751Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment is successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "db06ac50-bd7e-11ed-8242-a3bd391c124d",
+    "createdAt": "2023-03-08T07:00:05.654Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment is successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "241b1960-bd81-11ed-87bd-9972c229ffb7",
+    "createdAt": "2023-03-08T07:16:27.254Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "98e02290-bd81-11ed-a45e-7da83edaa5c1",
+    "createdAt": "2023-03-08T07:19:43.161Z",
+    "userId": "98cbb030-bd81-11ed-948e-61294a9a8d14",
+    "notificationMessage": "arpan has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "b2053530-bd81-11ed-b12f-8d22b1ab6f79",
+    "createdAt": "2023-03-08T07:20:25.348Z",
+    "userId": "b1f24970-bd81-11ed-8fa4-658fcc7597a6",
+    "notificationMessage": "Abhijit has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "32f3f3c0-bd82-11ed-b701-a7c42590c786",
+    "createdAt": "2023-03-08T07:24:01.660Z",
+    "userId": "ASF54F65SS",
+    "notificationMessage": "Your booking got confirmed",
+    "type": ["In-App", "Email", "Sms"]
+  },
+  {
+    "id": "37a31200-bd84-11ed-93c3-b12547e39d2e",
+    "createdAt": "2023-03-08T07:38:28.513Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "491885b0-bd84-11ed-a21f-2dcaa0e57f6d",
+    "createdAt": "2023-03-08T07:38:57.804Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "54562d60-bd84-11ed-a4ee-2187b0e14143",
+    "createdAt": "2023-03-08T07:39:16.662Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5fb69f50-bd84-11ed-8273-d5e44d953cf9",
+    "createdAt": "2023-03-08T07:39:35.749Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "727d4b20-bd84-11ed-a6da-8352d188a95d",
+    "createdAt": "2023-03-08T07:40:07.251Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "771fb4a0-bd85-11ed-9d05-f3283ead4cf6",
+    "createdAt": "2023-03-08T07:47:24.522Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ba13c030-bd85-11ed-bbdc-214b1cbafc0c",
+    "createdAt": "2023-03-08T07:49:16.851Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "c40bc880-bd85-11ed-a9fc-51d81d11e2e0",
+    "createdAt": "2023-03-08T07:49:33.576Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "cbff4e40-bd85-11ed-a9a0-7f0f1bd7e5cd",
+    "createdAt": "2023-03-08T07:49:46.916Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "d9077cc0-bd85-11ed-9c68-3d71eede7595",
+    "createdAt": "2023-03-08T07:50:08.780Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "43fec1f0-bd86-11ed-a84c-efa3449026ab",
+    "createdAt": "2023-03-08T07:53:08.239Z",
+    "userId": "UPI",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "9b936970-bd86-11ed-bc45-f92e7f7c60e7",
+    "createdAt": "2023-03-08T07:55:35.175Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "debanjan has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "1b148e40-bd87-11ed-96d5-6d4923d8f511",
+    "createdAt": "2023-03-08T07:59:09.092Z",
+    "userId": "1af6a600-bd87-11ed-9040-97c9725ac9fd",
+    "notificationMessage": "galop has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "3c35d930-bd87-11ed-b8a1-15855db983ad",
+    "createdAt": "2023-03-08T08:00:04.676Z",
+    "userId": "3c2118b0-bd87-11ed-a528-573d98e3034f",
+    "notificationMessage": "g has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "230ab6a0-bd88-11ed-80a6-6b226a3c12b2",
+    "createdAt": "2023-03-08T08:06:31.946Z",
+    "userId": "22ea3650-bd88-11ed-87bf-cfd724d61078",
+    "notificationMessage": "gg has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "29709780-bd88-11ed-bf0b-4b6c45c2ef0c",
+    "createdAt": "2023-03-08T08:06:42.680Z",
+    "userId": "295658c0-bd88-11ed-b846-2ba3ccba5886",
+    "notificationMessage": "gig has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "4f5f4900-bd88-11ed-abba-09ca13b9c9c0",
+    "createdAt": "2023-03-08T08:07:46.320Z",
+    "userId": "4f49c530-bd88-11ed-ba7c-1b007d1d3616",
+    "notificationMessage": "giig has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "27dbf150-bdd6-11ed-8b39-8fa4c0135a27",
+    "createdAt": "2023-03-08T17:25:00.773Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "32cc1540-bdd6-11ed-affd-4147998f40f8",
+    "createdAt": "2023-03-08T17:25:19.124Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "4a1710b0-bdd6-11ed-b09d-c5fb81609ed7",
+    "createdAt": "2023-03-08T17:25:58.203Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "83b372a0-bdd6-11ed-970d-0d40b5a86fc5",
+    "createdAt": "2023-03-08T17:27:34.858Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ad7684b0-bdd6-11ed-8a80-0f937416ec4e",
+    "createdAt": "2023-03-08T17:28:44.923Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "48e7ea10-bdd7-11ed-8d39-056e00c138af",
+    "createdAt": "2023-03-08T17:33:05.713Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "64c82510-bdd7-11ed-b63d-553356fdfb4c",
+    "createdAt": "2023-03-08T17:33:52.481Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "74d7a020-bdd7-11ed-8e8d-475a4e531e3f",
+    "createdAt": "2023-03-08T17:34:19.426Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "94ec0ef0-bdd7-11ed-b86b-dd70a9d8af23",
+    "createdAt": "2023-03-08T17:35:13.247Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "9fc7e790-bdd7-11ed-8908-1124e1e1dd30",
+    "createdAt": "2023-03-08T17:35:31.465Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "b5c29540-bdd7-11ed-ac85-71c270db6a07",
+    "createdAt": "2023-03-08T17:36:08.340Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "dd6a4160-bdd7-11ed-86d8-4334ffb0e677",
+    "createdAt": "2023-03-08T17:37:14.870Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "dd7082f0-bdd7-11ed-86d8-4334ffb0e677",
+    "createdAt": "2023-03-08T17:37:14.911Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "9031f000-bddc-11ed-b90f-594ed444f65f",
+    "createdAt": "2023-03-08T18:10:52.800Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "90387fb0-bddc-11ed-b90f-594ed444f65f",
+    "createdAt": "2023-03-08T18:10:52.843Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "b20db150-bddc-11ed-b3ea-b7c2f01a3920",
+    "createdAt": "2023-03-08T18:11:49.605Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "b213a4c0-bddc-11ed-b3ea-b7c2f01a3920",
+    "createdAt": "2023-03-08T18:11:49.644Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "53f50050-bde1-11ed-b984-973d4780ee3c",
+    "createdAt": "2023-03-08T18:44:59.221Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "53fbde20-bde1-11ed-b984-973d4780ee3c",
+    "createdAt": "2023-03-08T18:44:59.266Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "61644320-bde3-11ed-a27f-0d10901658b5",
+    "createdAt": "2023-03-08T18:59:40.755Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "61679e80-bde3-11ed-a27f-0d10901658b5",
+    "createdAt": "2023-03-08T18:59:40.776Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "69385a00-bde3-11ed-8809-d5de34b55eb9",
+    "createdAt": "2023-03-08T18:59:53.888Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "693ec2a0-bde3-11ed-8809-d5de34b55eb9",
+    "createdAt": "2023-03-08T18:59:53.930Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "7d5ac540-bde3-11ed-ba81-2ffa01d54c26",
+    "createdAt": "2023-03-08T19:00:27.668Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "7d61a310-bde3-11ed-ba81-2ffa01d54c26",
+    "createdAt": "2023-03-08T19:00:27.713Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "dbdfb350-bde3-11ed-9496-1bc550e61ec9",
+    "createdAt": "2023-03-08T19:03:06.245Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "dbe5cdd0-bde3-11ed-9496-1bc550e61ec9",
+    "createdAt": "2023-03-08T19:03:06.285Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f694dbd0-bde3-11ed-9610-cb9654181c54",
+    "createdAt": "2023-03-08T19:03:51.053Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f69af650-bde3-11ed-9610-cb9654181c54",
+    "createdAt": "2023-03-08T19:03:51.093Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "109f4560-bde4-11ed-a016-1f82138ebba4",
+    "createdAt": "2023-03-08T19:04:34.742Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "10a4c3a0-bde4-11ed-a016-1f82138ebba4",
+    "createdAt": "2023-03-08T19:04:34.778Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "c9658ef0-bde5-11ed-9a8a-6bcb1f60e625",
+    "createdAt": "2023-03-08T19:16:54.240Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "c96b8260-bde5-11ed-9a8a-6bcb1f60e625",
+    "createdAt": "2023-03-08T19:16:54.278Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "0fdccdd0-bde6-11ed-938c-e3646aea509f",
+    "createdAt": "2023-03-08T19:18:52.461Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "0fe447e0-bde6-11ed-938c-e3646aea509f",
+    "createdAt": "2023-03-08T19:18:52.510Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "6cc522e0-bde6-11ed-adba-f5323a09b0be",
+    "createdAt": "2023-03-08T19:21:28.334Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "6cc98fb0-bde6-11ed-adba-f5323a09b0be",
+    "createdAt": "2023-03-08T19:21:28.363Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "a16ce730-bde6-11ed-8e02-dddf9901ac95",
+    "createdAt": "2023-03-08T19:22:56.676Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "a17376e0-bde6-11ed-8e02-dddf9901ac95",
+    "createdAt": "2023-03-08T19:22:56.718Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "defc11b0-bde7-11ed-9356-c525baf2d707",
+    "createdAt": "2023-03-08T19:31:49.451Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "df03b2d0-bde7-11ed-9356-c525baf2d707",
+    "createdAt": "2023-03-08T19:31:49.501Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "3f3fc6c0-bde8-11ed-859a-3d61e59404d2",
+    "createdAt": "2023-03-08T19:34:30.956Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "43dd1ca0-bde8-11ed-bbef-997bbf6ff381",
+    "createdAt": "2023-03-08T19:34:38.698Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5cabf8f0-bde8-11ed-9ffa-51c747bb2b09",
+    "createdAt": "2023-03-08T19:35:20.319Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5cb12910-bde8-11ed-9ffa-51c747bb2b09",
+    "createdAt": "2023-03-08T19:35:20.353Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5d6cb0e0-bde8-11ed-a611-f903f8c4df26",
+    "createdAt": "2023-03-08T19:35:21.582Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5d722f20-bde8-11ed-a611-f903f8c4df26",
+    "createdAt": "2023-03-08T19:35:21.618Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5e5255f0-bde8-11ed-8a3d-b950a93f2cc9",
+    "createdAt": "2023-03-08T19:35:23.087Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "5e590cb0-bde8-11ed-8a3d-b950a93f2cc9",
+    "createdAt": "2023-03-08T19:35:23.131Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "990ef4f0-bde8-11ed-9585-ddabcbdd432e",
+    "createdAt": "2023-03-08T19:37:01.631Z",
+    "userId": "98fca570-bde8-11ed-a623-618dd44e3705",
+    "notificationMessage": "Ritwik has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "d08a4ba0-bde8-11ed-994b-a9eabea492b6",
+    "createdAt": "2023-03-08T19:38:34.714Z",
+    "userId": "d0760050-bde8-11ed-abdd-395717c527d7",
+    "notificationMessage": "renuka has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "fa962680-bde8-11ed-967c-05d2c272e25c",
+    "createdAt": "2023-03-08T19:39:45.256Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "fa9b56a0-bde8-11ed-967c-05d2c272e25c",
+    "createdAt": "2023-03-08T19:39:45.290Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "249ecd10-bde9-11ed-83b7-3fe4686b8e5f",
+    "createdAt": "2023-03-08T19:40:55.777Z",
+    "userId": "d0760050-bde8-11ed-abdd-395717c527d7",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "24a50ea0-bde9-11ed-83b7-3fe4686b8e5f",
+    "createdAt": "2023-03-08T19:40:55.818Z",
+    "userId": "d0760050-bde8-11ed-abdd-395717c527d7",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "62ea5f30-bde9-11ed-9706-fbf96b4d99a8",
+    "createdAt": "2023-03-08T19:42:40.291Z",
+    "userId": "d0760050-bde8-11ed-abdd-395717c527d7",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "7ea75ac0-bde9-11ed-8ba6-7bcb1fdf364c",
+    "createdAt": "2023-03-08T19:43:26.828Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "7eaf22f0-bde9-11ed-8ba6-7bcb1fdf364c",
+    "createdAt": "2023-03-08T19:43:26.879Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "86122880-bde9-11ed-b60d-056d8226b70d",
+    "createdAt": "2023-03-08T19:43:39.272Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "86181bf0-bde9-11ed-b60d-056d8226b70d",
+    "createdAt": "2023-03-08T19:43:39.311Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "04219f70-bdeb-11ed-a20a-9d2e0feb4f56",
+    "createdAt": "2023-03-08T19:54:20.263Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "255c8ce0-bdeb-11ed-9904-adcb4769f93b",
+    "createdAt": "2023-03-08T19:55:16.014Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "3ab2e440-bdeb-11ed-b6b6-e55eefca36bd",
+    "createdAt": "2023-03-08T19:55:51.812Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "3c35dac0-bdeb-11ed-baab-5dfc596803ca",
+    "createdAt": "2023-03-08T19:55:54.348Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "61271970-bdeb-11ed-8f3c-cb173f40e103",
+    "createdAt": "2023-03-08T19:56:56.327Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bb09f6b0-bdeb-11ed-832a-0b0a96ac5675",
+    "createdAt": "2023-03-08T19:59:27.131Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "31011740-bdec-11ed-aba4-6b49afaa4fe7",
+    "createdAt": "2023-03-08T20:02:45.044Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "6ca134a0-be3d-11ed-a8f1-69b49ad29053",
+    "createdAt": "2023-03-09T05:44:14.314Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "9b36dd60-be3d-11ed-a194-217c190fca6f",
+    "createdAt": "2023-03-09T05:45:32.470Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "9b3d1ef0-be3d-11ed-a194-217c190fca6f",
+    "createdAt": "2023-03-09T05:45:32.511Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "c6bc8700-be3d-11ed-b72d-1f61e2fe5906",
+    "createdAt": "2023-03-09T05:46:45.488Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "c6c1b720-be3d-11ed-b72d-1f61e2fe5906",
+    "createdAt": "2023-03-09T05:46:45.522Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "23fcfc40-be40-11ed-b246-17f5dbb91fb4",
+    "createdAt": "2023-03-09T06:03:40.932Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "24047650-be40-11ed-b246-17f5dbb91fb4",
+    "createdAt": "2023-03-09T06:03:40.981Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "8a28afa0-be40-11ed-8288-d168af49ad52",
+    "createdAt": "2023-03-09T06:06:32.346Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "8a349680-be40-11ed-8288-d168af49ad52",
+    "createdAt": "2023-03-09T06:06:32.424Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "debb13a0-be40-11ed-9483-e32b7f279d2c",
+    "createdAt": "2023-03-09T06:08:54.234Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "dec1ca60-be40-11ed-9483-e32b7f279d2c",
+    "createdAt": "2023-03-09T06:08:54.278Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ea8989a0-be40-11ed-87d0-99c43cc5357b",
+    "createdAt": "2023-03-09T06:09:14.042Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ea952260-be40-11ed-87d0-99c43cc5357b",
+    "createdAt": "2023-03-09T06:09:14.118Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f5103d60-be40-11ed-ae75-27e80f254e3d",
+    "createdAt": "2023-03-09T06:09:31.702Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f5180590-be40-11ed-ae75-27e80f254e3d",
+    "createdAt": "2023-03-09T06:09:31.753Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "2f4a3ee0-be41-11ed-832d-351423aa4fa6",
+    "createdAt": "2023-03-09T06:11:09.390Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "2f50ce90-be41-11ed-832d-351423aa4fa6",
+    "createdAt": "2023-03-09T06:11:09.433Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "332444c0-be41-11ed-ab27-8115cc5256e4",
+    "createdAt": "2023-03-09T06:11:15.852Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "332afb80-be41-11ed-ab27-8115cc5256e4",
+    "createdAt": "2023-03-09T06:11:15.896Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "372dbf10-be41-11ed-bb35-53615270b1e3",
+    "createdAt": "2023-03-09T06:11:22.625Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "373475d0-be41-11ed-bb35-53615270b1e3",
+    "createdAt": "2023-03-09T06:11:22.669Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "4d685bf0-be41-11ed-b942-afb4915ef0bf",
+    "createdAt": "2023-03-09T06:11:59.920Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "4d6db320-be41-11ed-b942-afb4915ef0bf",
+    "createdAt": "2023-03-09T06:11:59.954Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "75b39b10-be41-11ed-a995-556a56714998",
+    "createdAt": "2023-03-09T06:13:07.522Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "75b7b9c0-be41-11ed-a995-556a56714998",
+    "createdAt": "2023-03-09T06:13:07.548Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "18b0c3b0-be42-11ed-a1e1-f7df49f10c59",
+    "createdAt": "2023-03-09T06:17:40.971Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "18b83dc0-be42-11ed-a1e1-f7df49f10c59",
+    "createdAt": "2023-03-09T06:17:41.020Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "8afdc800-be42-11ed-849a-8d997a8e7cf3",
+    "createdAt": "2023-03-09T06:20:52.736Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "8b080130-be42-11ed-849a-8d997a8e7cf3",
+    "createdAt": "2023-03-09T06:20:52.803Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "91b0b770-be42-11ed-81a2-e5cd3cfff02c",
+    "createdAt": "2023-03-09T06:21:03.975Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "91bd61a0-be42-11ed-81a2-e5cd3cfff02c",
+    "createdAt": "2023-03-09T06:21:04.058Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bf6818b0-be43-11ed-b51d-ad309ff98c52",
+    "createdAt": "2023-03-09T06:29:30.171Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bf6d96f0-be43-11ed-b51d-ad309ff98c52",
+    "createdAt": "2023-03-09T06:29:30.207Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "fa6ae870-be43-11ed-820f-ed83d7824376",
+    "createdAt": "2023-03-09T06:31:09.175Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "fa7066b0-be43-11ed-820f-ed83d7824376",
+    "createdAt": "2023-03-09T06:31:09.211Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "152f2c20-be44-11ed-9bfd-1d3458b18e44",
+    "createdAt": "2023-03-09T06:31:54.082Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "183d7d90-be44-11ed-863a-cf9e00ac12da",
+    "createdAt": "2023-03-09T06:31:59.210Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "205c5910-be44-11ed-b113-034215795607",
+    "createdAt": "2023-03-09T06:32:12.833Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "20624c80-be44-11ed-b113-034215795607",
+    "createdAt": "2023-03-09T06:32:12.872Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "2241e1f0-be44-11ed-82c3-0d93b305416d",
+    "createdAt": "2023-03-09T06:32:16.015Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "2247fc70-be44-11ed-82c3-0d93b305416d",
+    "createdAt": "2023-03-09T06:32:16.056Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "25e3c0d0-be44-11ed-8ba6-f3ebfb32e4d3",
+    "createdAt": "2023-03-09T06:32:22.109Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "25ea2970-be44-11ed-8ba6-f3ebfb32e4d3",
+    "createdAt": "2023-03-09T06:32:22.151Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "3d4662f0-be44-11ed-822c-ffdc796f9873",
+    "createdAt": "2023-03-09T06:33:01.343Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "3d4db5f0-be44-11ed-822c-ffdc796f9873",
+    "createdAt": "2023-03-09T06:33:01.391Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "41d7d1f0-be44-11ed-8d58-bb6654ddbdf2",
+    "createdAt": "2023-03-09T06:33:09.007Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "41dd9e50-be44-11ed-8d58-bb6654ddbdf2",
+    "createdAt": "2023-03-09T06:33:09.045Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bddf6060-be44-11ed-a798-fb5f9335974b",
+    "createdAt": "2023-03-09T06:36:37.094Z",
+    "userId": "119266b0-bb6d-11ed-bd3b-4fe3c4a3ef41",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bde66540-be44-11ed-a798-fb5f9335974b",
+    "createdAt": "2023-03-09T06:36:37.140Z",
+    "userId": "119266b0-bb6d-11ed-bd3b-4fe3c4a3ef41",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "6ec6abb0-be48-11ed-91f3-ad092b98e9cc",
+    "createdAt": "2023-03-09T07:03:02.379Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "85f82bb0-be48-11ed-9949-ad1d20a35b1d",
+    "createdAt": "2023-03-09T07:03:41.291Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "d61c8730-be48-11ed-826a-4d811f027572",
+    "createdAt": "2023-03-09T07:05:55.747Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "deddbd30-be48-11ed-aaff-05a52a5ddf16",
+    "createdAt": "2023-03-09T07:06:10.435Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "0696f580-be49-11ed-9648-7357ce93daeb",
+    "createdAt": "2023-03-09T07:07:17.080Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "07f462a0-be49-11ed-bc34-19fe817cd924",
+    "createdAt": "2023-03-09T07:07:19.370Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "0888b360-be49-11ed-b16c-c16639cb04a4",
+    "createdAt": "2023-03-09T07:07:20.342Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "1d551a40-be49-11ed-a3ac-0938ff36419b",
+    "createdAt": "2023-03-09T07:07:55.236Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "1e5e25d0-be49-11ed-b889-9d9cdf3e14d6",
+    "createdAt": "2023-03-09T07:07:56.974Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "2565ec00-be49-11ed-9e5d-25610916ce49",
+    "createdAt": "2023-03-09T07:08:08.768Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "2718f330-be49-11ed-aa52-d75fd49d1ec4",
+    "createdAt": "2023-03-09T07:08:11.619Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "55d2c5c0-be49-11ed-81bd-f5b53e39888d",
+    "createdAt": "2023-03-09T07:09:30.012Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "56b90710-be49-11ed-a781-4f83e5cd5366",
+    "createdAt": "2023-03-09T07:09:31.521Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "6dfeab50-be49-11ed-8f44-d15c72e46c2a",
+    "createdAt": "2023-03-09T07:10:10.565Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "e03c6b60-be5f-11ed-8854-93a0f4bf32a4",
+    "createdAt": "2023-03-09T09:50:51.159Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "fc183990-be5f-11ed-9819-815fb73a82e4",
+    "createdAt": "2023-03-09T09:51:37.897Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "fc31b500-be5f-11ed-9819-815fb73a82e4",
+    "createdAt": "2023-03-09T09:51:38.064Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "4988e6c0-be60-11ed-ba8f-b35e34377c7e",
+    "createdAt": "2023-03-09T09:53:47.820Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "49939520-be60-11ed-ba8f-b35e34377c7e",
+    "createdAt": "2023-03-09T09:53:47.890Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "70c13d00-be65-11ed-98b6-6b5ecd234248",
+    "createdAt": "2023-03-09T10:30:41.104Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "0fe36370-be68-11ed-9a72-757028631447",
+    "createdAt": "2023-03-09T10:49:27.079Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "3b64f8f0-be69-11ed-bf79-470d4bdab766",
+    "createdAt": "2023-03-09T10:57:49.567Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "3b6f5930-be69-11ed-bf79-470d4bdab766",
+    "createdAt": "2023-03-09T10:57:49.635Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bde86140-be69-11ed-9eaa-c35623032371",
+    "createdAt": "2023-03-09T11:01:28.532Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "bdf1b010-be69-11ed-9eaa-c35623032371",
+    "createdAt": "2023-03-09T11:01:28.593Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "e54ea220-be6a-11ed-8c9b-eb2adb10a48b",
+    "createdAt": "2023-03-09T11:09:44.130Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "e72fbe30-be6a-11ed-b5cb-e3c9ef61d543",
+    "createdAt": "2023-03-09T11:09:47.283Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "ebd2e070-be6a-11ed-aab2-6f4dd6433818",
+    "createdAt": "2023-03-09T11:09:55.063Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "ebd97020-be6a-11ed-aab2-6f4dd6433818",
+    "createdAt": "2023-03-09T11:09:55.106Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "2ba5d5e0-be6b-11ed-808d-e3812976ae3d",
+    "createdAt": "2023-03-09T11:11:42.142Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "2bac3e80-be6b-11ed-808d-e3812976ae3d",
+    "createdAt": "2023-03-09T11:11:42.184Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "dcb99220-be9f-11ed-bdb6-dbcc5ea031ab",
+    "createdAt": "2023-03-09T17:28:53.058Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "cae76c90-beac-11ed-9c02-9f0d37b1b3f8",
+    "createdAt": "2023-03-09T19:01:26.617Z",
+    "userId": "cac146f0-beac-11ed-a790-b5a51140500f",
+    "notificationMessage": "Sahil has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "de8df110-beac-11ed-b39c-e96404213cf6",
+    "createdAt": "2023-03-09T19:01:59.585Z",
+    "userId": "de78e270-beac-11ed-8818-2dfc20282e3f",
+    "notificationMessage": "kunal has registered successfully",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f85f05b0-bead-11ed-bcf6-a3f545ff7fb2",
+    "createdAt": "2023-03-09T19:09:52.395Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "10fbce20-beb1-11ed-ad01-cf08d6b8d9ef",
+    "createdAt": "2023-03-09T19:32:02.178Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "11128a70-beb1-11ed-ad01-cf08d6b8d9ef",
+    "createdAt": "2023-03-09T19:32:02.327Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "923ef8d0-beb2-11ed-84b6-1b0cada28961",
+    "createdAt": "2023-03-09T19:42:48.541Z",
+    "userId": "9S8DFAFSDC",
+    "notificationMessage": "Your booking got confirmed!",
+    "type": ["In-App", "Email"]
+  },
+  {
+    "id": "ad568ca0-beb2-11ed-b1ba-419dce8e47ee",
+    "createdAt": "2023-03-09T19:43:33.994Z",
+    "userId": "U5FD8G7SS",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f03fe9d0-beb2-11ed-a3bb-99bb518484b5",
+    "createdAt": "2023-03-09T19:45:26.253Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f045b630-beb2-11ed-a3bb-99bb518484b5",
+    "createdAt": "2023-03-09T19:45:26.291Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f2475290-beb2-11ed-9af7-9b634b63112a",
+    "createdAt": "2023-03-09T19:45:29.657Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "f24d4600-beb2-11ed-9af7-9b634b63112a",
+    "createdAt": "2023-03-09T19:45:29.696Z",
+    "userId": "82be9a50-bac0-11ed-8baa-b308c25a9814",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "12f2d140-beb3-11ed-9a3a-4d03fc98f49c",
+    "createdAt": "2023-03-09T19:46:24.468Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "12f80160-beb3-11ed-9a3a-4d03fc98f49c",
+    "createdAt": "2023-03-09T19:46:24.502Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your flight booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "14e3f2e0-beb3-11ed-b776-734e022c04b9",
+    "createdAt": "2023-03-09T19:46:27.727Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "14e8fbf0-beb3-11ed-b776-734e022c04b9",
+    "createdAt": "2023-03-09T19:46:27.759Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "198e6820-beb3-11ed-8046-831382185aac",
+    "createdAt": "2023-03-09T19:46:35.554Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "19943480-beb3-11ed-8046-831382185aac",
+    "createdAt": "2023-03-09T19:46:35.592Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "59d81430-beb3-11ed-8b04-f7d16c3985d2",
+    "createdAt": "2023-03-09T19:48:23.411Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your payment was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  },
+  {
+    "id": "59dd9270-beb3-11ed-8b04-f7d16c3985d2",
+    "createdAt": "2023-03-09T19:48:23.447Z",
+    "userId": "9b7aff70-bd86-11ed-a5a9-1396d0c9324d",
+    "notificationMessage": "Your hotel booking was successful",
+    "type": ["In-App", "Email", "Sms", "Push"]
+  }
+]

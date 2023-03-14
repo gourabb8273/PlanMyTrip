@@ -1,0 +1,27 @@
+[
+  {
+    "service": "user-service1.0.0[::ffff:127.0.0.1]8081",
+    "updatedAt": "2023-03-05T18:40:46.612Z",
+    "id": "9815f200-c197-11ed-8661-09ec30bc587f"
+  },
+  {
+    "service": "notification-service1.0.0[::ffff:127.0.0.1]8085",
+    "updatedAt": "2023-03-05T18:21:17.804Z",
+    "id": "4815f200-c197-11ed-8661-09ec30bc587f"
+  },
+  {
+    "service": "payment-service1.0.0[::ffff:172.22.0.1]8086",
+    "updatedAt": "2023-03-13T12:06:21.728Z",
+    "id": "7815f200-c197-11ed-8661-09ec30bc587f"
+  },
+  {
+    "service": "booking-service1.0.0[::ffff:172.22.0.1]8083",
+    "updatedAt": "2023-03-13T12:06:57.533Z",
+    "id": "8d6d5ad0-c197-11ed-bb91-77e9c9cfa236"
+  },
+  {
+    "service": "content-service1.0.0[::ffff:172.22.0.1]8082",
+    "updatedAt": "2023-03-13T12:06:57.533Z",
+    "id": "8d6d5ad0-c197-11ed-bb91-77e9c9cfa236"
+  }
+]

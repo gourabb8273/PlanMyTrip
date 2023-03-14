@@ -1,0 +1,191 @@
+openapi: 3.0.0
+info:
+  title: Booking Service
+  description: Microservice for booking flight or hotel.
+  version: 1.0 
+  
+servers:
+  - url: http://localhost:8083/
+    description:  Local server 
+ 
+components:
+  securitySchemes:
+    token:   
+      type: apiKey
+      in: header       
+      name: token
+      
+paths:
+  /api/flight/{flightId}:
+    post:
+      tags:
+        - Booking a flight 
+      summary: Booking a flight. 
+      description: <b>Booking a flight</b> <br /> <br />  
+      parameters:
+        - in: path
+          name: flightId
+          schema:
+            type: string
+            example: "S5G5S6DFS63S" 
+          required: true
+          description: Unique Flight Id  
+      security:
+        - token: []  
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                bookingType:         
+                  type: string
+                  example: "economy"  
+                user:
+                  type: object
+                  properties: 
+                      id:         
+                        type: string
+                        example: "9b7aff70-bd86-11ed-a5a9-1396d0c9324d"  
+                      email:         
+                        type: string
+                        example: "debanjan05@gmail.com"  
+                      phone:         
+                        type: string
+                        example: '8436396466' 
+                departure:
+                  type: object
+                  properties: 
+                      location:         
+                        type: string
+                        example: "kolkata"    
+                      date:         
+                        type: string
+                        example: "17/03/2023"  
+                      time:         
+                        type: integer
+                        example: 1200  
+                arrival:
+                  type: object
+                  properties: 
+                      location:         
+                        type: string
+                        example: "delhi"  
+                      date:         
+                        type: string
+                        example: "17/03/2023"  
+                      time:         
+                        type: integer
+                        example: 1500 
+                paymentData:
+                  type: object
+                  properties: 
+                      modeOfTransaction:         
+                        type: string
+                        example: "UPI"  
+                      totalAmount:         
+                        type: integer
+                        example: 2350  
+                      bankName:         
+                        type: string
+                        example: 'ICICI'    
+                      bankCode:         
+                        type: string
+                        example: '856658' 
+                      accountNumber:         
+                        type: string
+                        example: '3226461299649'                      
+         
+      responses:
+        '201':
+          description: Your flight booking was confirmed. 
+        '400':
+          description: Token not found, Please provide a valid token".
+        '404':
+          description: We are sorry no flight found at this moment.
+        '500':
+          description: Something went wrong while booking flight.
+        default:
+          description: Unexpected error
+
+  /api/hotel/{hotelId}:
+    post:
+      tags:
+        - Booking a hotel 
+      summary: Booking a hotel. 
+      description: <b>Booking a hotel</b> <br /> <br />  
+      parameters:
+        - in: path
+          name: hotelId
+          schema:
+            type: string
+            example: "HSDF87F687RG" 
+          required: true
+          description: Unique hotel Id  
+      security:
+        - token: []  
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                user:
+                  type: object
+                  properties: 
+                      id:         
+                        type: string
+                        example: "9b7aff70-bd86-11ed-a5a9-1396d0c9324d"  
+                      email:         
+                        type: string
+                        example: "debanjan05@gmail.com"  
+                      phone:         
+                        type: string
+                        example: '8436396466' 
+                room:
+                  type: object
+                  properties: 
+                      bedtype:         
+                        type: string
+                        example: "double"    
+                      hasAc:         
+                        type: boolean
+                        example: true 
+                      numberOfRoom:         
+                        type: integer
+                        example: 2               
+                paymentData:
+                  type: object
+                  properties: 
+                      modeOfTransaction:         
+                        type: string
+                        example: "UPI"  
+                      totalAmount:         
+                        type: integer
+                        example: 2350  
+                      bankName:         
+                        type: string
+                        example: 'ICICI'    
+                      bankCode:         
+                        type: string
+                        example: '856658' 
+                      accountNumber:         
+                        type: string
+                        example: '3226461299649'                      
+         
+      responses:
+        '201':
+          description: Your hotel booking was confirmed. 
+        '400':
+          description: Token not found, Please provide a valid token".
+        '404':
+          description: We are sorry no hotel found at this moment.
+        '500':
+          description: Something went wrong while booking hotel.
+        default:
+          description: Unexpected error
+  

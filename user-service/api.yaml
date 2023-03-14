@@ -1,0 +1,261 @@
+openapi: 3.0.0
+info:
+  title: User Service
+  description: Microservice for User APIs .
+  version: 1.0 
+  
+servers:
+  - url: http://localhost:8081/
+    description:  Local server 
+ 
+components:
+  securitySchemes:
+    token:   
+      type: apiKey
+      in: header       
+      name: token
+      
+paths:  
+  /api/users:
+    get:
+      security:
+        - token: []
+      tags:
+        - Get List of registered users for only admin
+      summary: Return a list of registered users. 
+      description: <b> Return a list of registered users information </b> <br /> <br />             
+      responses:
+        '200':
+          description: User list is being fetchched successfully. 
+        '500':
+          description: Something went wrong while showing a list of users.
+        default:
+          description: Unexpected error
+  
+  paths:
+  /api/signup:
+    post:
+      tags:
+        - User Registration API 
+      summary: Register an user. 
+      description: <b>Sign up an user and send a token for further communication</b> <br /> <br />    
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                username:       
+                  type: string
+                  example: "john"  
+                email:         
+                  type: string
+                  example: "john@gmail.com"  
+                phone:       
+                  type: string
+                  example: "8465923698" 
+                password:       
+                  type: string
+                  example: "DH^&jd(A"  
+                role:       
+                  type: string
+                  example: "user"  
+         
+      responses:
+        '201':
+          description: User is successfully registered. 
+        '400':
+          description: Invalid request body.
+        '404':
+          description: User is already exists, please login.
+        '500':
+          description: Internal server error.
+        default:
+          description: Something went wrong while registering user
+
+  paths:
+  /api/login:
+    post:
+      tags:
+        - User login API 
+      summary: Login user's credentials. 
+      description: <b>Login user's credentials and generate a token for further communication </b> <br /> <br />    
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                email:         
+                  type: string
+                  example: "john@gmail.com"  
+                password:       
+                  type: string
+                  example: "DH^&jd(A"  
+         
+      responses:
+        '200':
+          description: Login success message and token. 
+        '400':
+          description: Invalid request or crendentials.
+        '404':
+          description: User not found.
+        '500':
+          description: Something went wrong while logging user.
+        default:
+          description: Unexpected error
+  paths:
+  /api/booking/flight/{flightId}:
+    post:
+      tags:
+        - Booking a flight 
+      summary: Booking a flight. 
+      description: <b>Booking a flight</b> <br /> <br />  
+      parameters:
+        - in: path
+          name: flightId
+          schema:
+            type: string
+            example: "S5G5S6DFS63S" 
+          required: true
+          description: Unique Flight Id  
+      security:
+        - token: []  
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                bookingType:         
+                  type: string
+                  example: "economy"  
+                departure:
+                  type: object
+                  properties: 
+                      location:         
+                        type: string
+                        example: "kolkata"    
+                      date:         
+                        type: string
+                        example: "17/03/2023"  
+                      time:         
+                        type: integer
+                        example: 1200  
+                arrival:
+                  type: object
+                  properties: 
+                      location:         
+                        type: string
+                        example: "delhi"  
+                      date:         
+                        type: string
+                        example: "17/03/2023"  
+                      time:         
+                        type: integer
+                        example: 1500 
+                paymentData:
+                  type: object
+                  properties: 
+                      modeOfTransaction:         
+                        type: string
+                        example: "UPI"  
+                      totalAmount:         
+                        type: integer
+                        example: 2350  
+                      bankName:         
+                        type: string
+                        example: 'ICICI'    
+                      bankCode:         
+                        type: string
+                        example: '856658' 
+                      accountNumber:         
+                        type: string
+                        example: '3226461299649'                      
+         
+      responses:
+        '201':
+          description: Your booking was confirmed. 
+        '400':
+          description: Token not found, Please provide a valid token".
+        '404':
+          description: We are sorry no flight found at this moment.
+        '500':
+          description: Something went wrong while booking flight.
+        default:
+          description: Unexpected error
+  /api/booking/hotel/{hotelId}:
+    post:
+      tags:
+        - Booking a hotel 
+      summary: Booking a hotel. 
+      description: <b>Booking a hotel</b> <br /> <br />  
+      parameters:
+        - in: path
+          name: hotelId
+          schema:
+            type: string
+            example: "HSDF87F687RG" 
+          required: true
+          description: Unique hotel Id  
+      security:
+        - token: []  
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                room:
+                  type: object
+                  properties: 
+                      bedtype:         
+                        type: string
+                        example: "double"    
+                      hasAc:         
+                        type: boolean
+                        example: true 
+                      numberOfRoom:         
+                        type: integer
+                        example: 2               
+                paymentData:
+                  type: object
+                  properties: 
+                      modeOfTransaction:         
+                        type: string
+                        example: "UPI"  
+                      totalAmount:         
+                        type: integer
+                        example: 2350  
+                      bankName:         
+                        type: string
+                        example: 'ICICI'    
+                      bankCode:         
+                        type: string
+                        example: '856658' 
+                      accountNumber:         
+                        type: string
+                        example: '3226461299649'                      
+         
+      responses:
+        '201':
+          description: Your hotel booking was confirmed. 
+        '400':
+          description: Token not found, Please provide a valid token".
+        '404':
+          description: We are sorry no hotel found at this moment.
+        '500':
+          description: Something went wrong while booking hotel.
+        default:
+          description: Unexpected error
+  
+  
+  

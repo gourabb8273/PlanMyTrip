@@ -1,0 +1,119 @@
+openapi: 3.0.0
+info:
+  title: Service Registry
+  description: Service registry for registering service and service discovery.
+  version: 1.0 
+  
+servers:
+  - url: http://localhost:8084/
+    description:  Local server 
+ 
+paths:  
+  /api/register/{servicename}/{serviceversion}/{serviceport}:
+    put:
+      tags:
+        - Registering a Service  
+      summary:  we are Registering a service in service registry when service is up
+      description: <b> we are Registering a service in service registry when service is up</b> <br /> <br />   
+      parameters:
+        - in: path
+          name: servicename
+          schema:
+            type: string
+            example: "user-service" 
+          required: true
+          description: Service Name
+        - in: path
+          name: serviceversion
+          schema:
+            type: string
+            example: "1.0.0" 
+          required: true
+          description: Service version
+      responses:
+        '200':
+          description: Service is found successfully. 
+        '400':
+          description: Service not found.
+        '500':
+          description: Something went wrong while registering service.
+        default:
+          description: Something went wrong 
+
+  /api/find/{servicename}/{serviceversion}:
+    get:
+      tags:
+        - Service Discovery 
+      summary:  we are checking service registry for service discovery 
+      description: <b> we are checking service registry for service discovery</b> <br /> <br />   
+      parameters:
+        - in: path
+          name: servicename
+          schema:
+            type: string
+            example: "user-service" 
+          required: true
+          description: Service Name
+        - in: path
+          name: serviceversion
+          schema:
+            type: string
+            example: "1.0.0" 
+          required: true
+          description: Service version
+        - in: path
+          name: serviceport
+          schema:
+            type: string
+            example: "8081" 
+          required: true
+          description: Port where Service is running
+      responses:
+        '201':
+          description: Service is registered successfully. 
+        '400':
+          description: Invalid request.
+        '500':
+          description: Something went wrong while registering service.
+        default:
+          description: Something went wrong           
+          
+  /api/deregister/{servicename}/{serviceversion}/{serviceport}:
+    delete:
+      tags:
+        - De-registering service 
+      summary:  we are deleting service from registry when service is down
+      description: <b> we are deleting service from registry when service is down</b> <br /> <br />   
+      parameters:
+        - in: path
+          name: servicename
+          schema:
+            type: string
+            example: "user-service" 
+          required: true
+          description: Service Name
+        - in: path
+          name: serviceversion
+          schema:
+            type: string
+            example: "1.0.0" 
+          required: true
+          description: Service version
+        - in: path
+          name: serviceport
+          schema:
+            type: string
+            example: "8081" 
+          required: true
+          description: Port where Service is running
+      responses:
+        '201':
+          description: Service is De-registered successfully. 
+        '400':
+          description: Invalid request.
+        '500':
+          description: Something went wrong while de-registering service.
+        default:
+          description: Something went wrong 
+          
+          

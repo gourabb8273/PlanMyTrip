@@ -1,0 +1,99 @@
+[
+    {
+      "id": "SJKSJN8EJD80",
+      "airline": "Indigo",
+      "name": "IN201",
+      "capacity": {
+        "economy": 120,
+        "business": 20
+      },
+      "status": "waiting to be scheduled",
+      "schedule": {
+        "id": "w5df3w13",
+        "dayOfWeek": [1, 2, 5, 6],
+        "departure": {
+          "location": "kolkata",
+          "time": 12.0,
+          "terminal": "3A"
+        },
+        "arrival": {
+          "location": "delhi",
+          "time": 15.2,
+          "terminal": "1A"
+        }
+      }
+    },
+    {
+      "id": "5SFJN8EJD80",
+      "airline": "Indigo",
+      "name": "IN503",
+      "capacity": {
+        "economy": 120,
+        "business": 20
+      },
+      "status": "waiting to be scheduled",
+      "schedule": {
+        "id": "w5df3w13",
+        "dayOfWeek": [2, 3, 5],
+        "departure": {
+          "location": "kolkata",
+          "time": 9.0,
+          "terminal": "2A"
+        },
+        "arrival": {
+          "location": "delhi",
+          "time": 11.0,
+          "terminal": "1A"
+        }
+      }
+    },
+    {
+      "id": "8SD25JN8EJD80",
+      "airline": "Air India",
+      "name": "AIR201",
+      "capacity": {
+        "economy": 95,
+        "business": 31
+      },
+      "status": "waiting to be scheduled",
+      "schedule": {
+        "id": "w5df3w13",
+        "dayOfWeek": [2, 5, 6],
+        "departure": {
+          "location": "kolkata",
+          "time": 12.0,
+          "terminal": "3A"
+        },
+        "arrival": {
+          "location": "delhi",
+          "time": 15.2,
+          "terminal": "1A"
+        }
+      }
+    },
+    {
+      "id": "S5G5S6DFS63S",
+      "airline": "Indigo",
+      "name": "IN544",
+      "capacity": {
+        "economy": 130,
+        "business": 12
+      },
+      "status": "waiting to be scheduled",
+      "schedule": {
+        "id": "w5df3w13",
+        "dayOfWeek": [1, 2, 3, 4, 5],
+        "departure": {
+          "location": "pune",
+          "time": 12.0,
+          "terminal": "2A"
+        },
+        "arrival": {
+          "location": "kolkata",
+          "time": 15.2,
+          "terminal": "1A"
+        }
+      }
+    }
+  ]
+  

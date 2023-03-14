@@ -1,0 +1,205 @@
+openapi: 3.0.0
+info:
+  title: Content Service
+  description: Microservice for showing content related flight and hotel from read database, anyone can see it no authentication required.
+  version: 1.0 
+  
+servers:
+  - url: http://localhost:8082/
+    description:  Local server 
+ 
+# components:
+#   securitySchemes:
+#     token:   
+#       type: apiKey
+#       in: header       
+#       name: token
+      
+paths:  
+  /api/flight:
+    get:
+      # security:
+      #   - token: []
+      tags:
+        - Showing all available flight
+      summary: Showing all available flight. 
+      description: <b>Showing all available flight </b> <br /> <br />             
+      responses:
+        '200':
+          description: Available Flights are fetched successfully. 
+        '500':
+          description: Something went wrong while showing available flight.
+        default:
+          description: Unexpected error
+  /api/flight/{departure}/{arrival}:
+    get:
+      # security:
+      #   - token: []
+      tags:
+        - Showing available flight based on departure and arrival location
+      summary: Showing available flight based on departure and arrival location. 
+      description: <b>Showing all location based available flight </b> <br /> <br />       
+      parameters:
+        - in: path
+          name: departure
+          schema:
+            type: string
+            example: "Kolkata" 
+          required: true
+          description: Departure location  
+        - in: path        
+          name: arrival
+          schema:
+            type: string
+            example: "Delhi" 
+          required: true
+          description: Arrival location   
+      responses:
+        '200':
+          description: Available Flights are fetched successfully. 
+        '500':
+          description: Something went wrong while showing available flight.
+        '400':
+          description: Please provide a valid location.
+        '400':
+          description: Please provide a departure location.
+        '400':
+          description: Please provide a arrival location.
+        default:
+          description: Unexpected error
+  
+  /api/flight/{departure}/{arrival}/{dayNum}:
+    get:
+      # security:
+      #   - token: []
+      tags:
+        - Showing available flight based on departure, arrival location and day
+      summary: Showing available flight based on departure, arrival location and day 
+      description: <b>Showing available flight based on departure, arrival location and day</b> <br /> <br />   
+      parameters:
+        - in: path
+          name: departure
+          schema:
+            type: string
+            example: "Kolkata" 
+          required: true
+          description: Departure location  
+        - in: path        
+          name: arrival
+          schema:
+            type: string
+            example: "Delhi" 
+          required: true
+          description: Arrival location             
+        - in: path        
+          name: dayNum
+          schema:
+            type: integer
+            example: 2 
+          required: true
+          description: Day number     
+      responses:
+        '200':
+          description: Available Flights are fetched successfully. 
+        '500':
+          description: Something went wrong while showing available flight.
+        '400':
+          description: Please provide a valid location.
+        '400':
+          description: Please provide a departure location.
+        '400':
+          description: Please provide a arrival location.
+        '400':
+          description: Please provide a departure day.
+        default:
+          description: Unexpected error
+  /api/hotel:
+    get:
+      # security:
+      #   - token: []
+      tags:
+        - Showing all available hotel
+      summary: Showing all available hotel. 
+      description: <b>Showing all available hotel </b> <br /> <br />             
+      responses:
+        '200':
+          description: Available hotel are fetched successfully. 
+        '500':
+          description: Something went wrong while showing available hotel.
+        default:
+          description: Unexpected error
+  /api/hotel/{location}:
+    get:
+      # security:
+      #   - token: []
+      tags:
+        - Showing all available hotel based on location
+      summary: Showing all available hotel based on location. 
+      description: <b>Showing all available hotel </b> <br /> <br />  
+      parameters:
+        - in: path
+          name: location
+          schema:
+            type: string
+            example: "Delhi" 
+          required: true
+          description: Hotel location             
+      responses:
+        '200':
+          description: Available hotel are fetched successfully. 
+        '400':
+          description: Please provide a hotel location.
+        '500':
+          description: Something went wrong while showing available hotel.
+        default:
+          description: Unexpected error
+  /api/hotel/{location}/{numOfRoom}/{bedType}/{hasAc}:
+    get:
+      tags:
+        - Showing all available hotel based on filter of location, no of room, ac or non ac and bed type 
+      summary: Showing all available hotel based on filter of location, no of room, ac or non ac and bed type. 
+      description: <b>Showing all available hotel based on filter of location, no of room, ac or non ac and bed type</b> <br /> <br />  
+      parameters:
+        - in: path
+          name: location
+          schema:
+            type: string
+            example: "Delhi" 
+          required: true
+          description: Hotel location      
+        - in: path
+          name: numOfRoom
+          schema:
+            type: number
+            example: 2 
+          required: true
+          description: No of roooms required   
+        - in: path
+          name: bedType
+          schema:
+            type: string
+            example: "double" 
+          required: true
+          description: Single or double bed
+        - in: path
+          name: hasAc
+          schema:
+            type: string
+            example: true 
+          required: true
+          description: Ac or Non AC        
+      responses:
+        '200':
+          description: Available hotel are fetched successfully. 
+        '400':
+          description: Please provide a valid input.
+        '400':
+          description: Please provide no of room required location.
+        '400':
+          description: Please provide type of bed required.
+        '400':
+          description: Please provide whether you need ac or not.
+        '500':
+          description: Something went wrong while showing available hotel.
+        default:
+          description: Unexpected error

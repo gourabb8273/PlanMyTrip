@@ -1,0 +1,97 @@
+version: "3"
+
+services:
+  api-gateway:
+    build: ./api-gateway
+    image: api-gateway
+    container_name: api-gateway
+    entrypoint: npm start
+    env_file: ./api-gateway/.env
+    ports:
+      - "9000:9000"
+    networks:
+      - plan-my-trip-network
+
+  service-registry:
+    build: ./service-registry
+    restart: always
+    image: service-registry
+    container_name: service-registry
+    entrypoint: npm start
+    env_file: ./service-registry/.env
+    ports:
+      - "8084:8084"
+    networks:
+      - plan-my-trip-network
+
+  content-service:
+    build: ./content-service
+    depends_on:
+      - service-registry
+    restart: always
+    image: content-service
+    container_name: content-service
+    entrypoint: npm start
+    env_file: ./content-service/.env
+    ports:
+      - "8082:8082"
+    networks:
+      - plan-my-trip-network
+
+  user-service:
+    build: ./user-service
+    depends_on:
+      - service-registry
+    restart: always
+    image: user-service
+    container_name: user-service
+    entrypoint: npm start
+    env_file: ./user-service/.env
+    ports:
+      - "8081:8081"
+    networks:
+      - plan-my-trip-network
+
+  booking-service:
+    build: ./booking-service
+    depends_on:
+      - service-registry
+    restart: always
+    image: booking-service
+    container_name: booking-service
+    entrypoint: npm start
+    env_file: ./booking-service/.env
+    ports:
+      - "8083:8083"
+    networks:
+      - plan-my-trip-network
+
+  notification-service:
+    build: ./notification-service
+    depends_on:
+      - service-registry
+    image: notification-service
+    container_name: notification-service
+    entrypoint: npm start
+    env_file: ./notification-service/.env
+    ports:
+      - "8085:8085"
+    networks:
+      - plan-my-trip-network
+
+  payment-service:
+    build: ./payment-service
+    depends_on:
+      - service-registry
+    restart: always
+    image: payment-service
+    container_name: payment-service
+    entrypoint: npm start
+    env_file: ./payment-service/.env
+    ports:
+      - "8086:8086"
+    networks:
+      - plan-my-trip-network
+
+networks:
+  plan-my-trip-network:

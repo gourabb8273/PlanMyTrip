@@ -1,0 +1,62 @@
+openapi: 3.0.0
+info:
+  title: Notification Service
+  description: Microservice for sending In App, Email, Phone, and Push Notification.
+  version: 1.0 
+  
+servers:
+  - url: http://localhost:8085/
+    description:  Local server 
+ 
+components:
+  securitySchemes:
+    token:   
+      type: apiKey
+      in: header       
+      name: token
+      
+paths:  
+  /api/notify:
+    post:
+      security:
+        - token: []
+      tags:
+        - Sending Notification 
+      summary: Sending In App, Email, Phone, and Push Notification  notification. 
+      description: <b>sending In App, Email, Phone, and Push Notification  notification</b> <br /> <br />    
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                message:       
+                  type: string
+                  example: "Your booking got confirmed"  
+                type:         
+                  type: array
+                  example:  ["In-App", "Email", "Sms" ] 
+                user:
+                  type: object
+                  properties: 
+                    id:       
+                      type: string
+                      example: "ASF54F65SS"  
+                    email:       
+                      type: string
+                      example: "john@gmail.com"  
+                    phone:       
+                      type: string
+                      example: "9564256894"  
+         
+      responses:
+        '201':
+          description: Notification send successfully. 
+        '400':
+          description: Invalid request body.
+        '500':
+          description: Something went wrong while sending notification.
+        default:
+          description: Something went wrong 

@@ -1,0 +1,86 @@
+openapi: 3.0.0
+info:
+  title: Payment Service
+  description: Microservice for making payment before placing booking order.
+  version: 1.0 
+  
+servers:
+  - url: http://localhost:8086/
+    description:  Local server 
+ 
+components:
+  securitySchemes:
+    token:   
+      type: apiKey
+      in: header       
+      name: token
+      
+paths:  
+  /api/payment/{bookingId}:
+    post:
+      security:
+        - token: []
+      tags:
+        - Making payment for a booking order 
+      summary: Making payment for a booking order of type hotel or flight 
+      description: <b>Making payment for a booking order of type hotel or flight</b> <br /> <br />    
+      parameters:
+        - in: path
+          name: bookingId
+          schema:
+            type: string
+            example: "Bfs9r55h6rrf923" 
+          required: true
+          description: Booking Unique Id  
+      post:
+      requestBody:
+        required: true
+        content:          
+           application/json:
+            schema:
+              type: object
+              properties: 
+                bookingType:       
+                  type: string
+                  example: "flight"  
+                paymentData:
+                  type: object
+                  properties: 
+                    modeOfTransaction:       
+                      type: string
+                      example: "UPI"  
+                    totalAmount:       
+                      type: integer
+                      example: 1280  
+                    bankName:       
+                      type: string
+                      example: "ICICI" 
+                    bankCode:       
+                      type: string
+                      example: "65366" 
+                    accountNumber:       
+                      type: string
+                      example: "3239566569" 
+                user:
+                  type: object
+                  properties: 
+                    id:       
+                      type: string
+                      example: "UPI"  
+                    phone:       
+                      type: string
+                      example: 8362564598  
+                    email:       
+                      type: string
+                      example: "jonas@gmail.123"         
+      responses:
+        '201':
+          description: Your payment was successful. 
+        '404':
+          description: Token not found.
+        '400':
+          description: Invalid request body.
+        '500':
+          description: Something went wrong while making the payment.
+        default:
+          description: Something went wrong 

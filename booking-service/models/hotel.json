@@ -1,0 +1,306 @@
+[
+  {
+    "id": "HSDF87F687RG",
+    "hotelName": "The Leela Palace New Delhi",
+    "ownerId": "OS6GER698G7G",
+    "ownerName": "Snehal Sharma",
+    "ownerAddress": {
+      "location": "Delhi",
+      "state": "Haryana",
+      "pincode": "110002",
+      "country": "India",
+      "contact": "7665948273",
+      "countryCode": "+91",
+      "email": "snehal.sharma@gmail.com"
+    },
+    "address": {
+      "location": "Delhi",
+      "state": "Haryana",
+      "pincode": "110001",
+      "country": "India",
+      "contact": "8564674561",
+      "countryCode": "+91"
+    },
+    "room": [
+      {
+        "id": "R58H5E6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "1250",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "R58H5OIFR5GEE6",
+        "type": "delux",
+        "pricePerNight": "1150",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "R58HFG6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "850",
+        "currency": "INR",
+        "bedType": "single",
+        "hasAc": false,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      }
+    ],
+    "availableRoom": 3,
+    "createdAt": "2023-03-06T10:37:04.640Z",
+    "updatedAt": "2023-03-06T10:37:04.640Z"
+  },
+  {
+    "id": "5SDF872387RG",
+    "hotelName": "The Lemon Tree New Delhi",
+    "ownerId": "OS6GER678G7G",
+    "ownerName": "Sanjay Roy",
+    "ownerAddress": {
+      "location": "Delhi",
+      "state": "Haryana",
+      "pincode": "110012",
+      "country": "India",
+      "contact": "8655948273",
+      "countryCode": "+91",
+      "email": "sanjay.roy@gmail.com"
+    },
+    "address": {
+      "location": "Delhi",
+      "state": "Haryana",
+      "pincode": "110011",
+      "country": "India",
+      "contact": "8564677861",
+      "countryCode": "+91"
+    },
+    "room": [
+      {
+        "id": "R58H5E6FR5G446",
+        "type": "delux",
+        "pricePerNight": "1050",
+        "currency": "INR",
+        "bedType": "single",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": true
+      },
+      {
+        "id": "R58H577FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "2050",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "R78HFG6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "1850",
+        "currency": "INR",
+        "bedType": "single",
+        "hasAc": false,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      }
+    ],
+    "availableRoom": 2,
+    "createdAt": "2023-03-06T10:37:04.640Z",
+    "updatedAt": "2023-03-06T10:37:04.640Z"
+  },
+  {
+    "id": "HSDF87F687RG",
+    "hotelName": "A Dot GNH",
+    "ownerId": "O00GER698G7G",
+    "ownerName": "Rishav Sharma",
+    "ownerAddress": {
+      "location": "Delhi",
+      "state": "Haryana",
+      "pincode": "110023",
+      "country": "India",
+      "contact": "7665948273",
+      "countryCode": "+91",
+      "email": "rishav.sharma@gmail.com"
+    },
+    "address": {
+      "location": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001",
+      "country": "India",
+      "contact": "8564674561",
+      "countryCode": "+91"
+    },
+    "room": [
+      {
+        "id": "D58H5E6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "1250",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "D5775OIFR5GEE6",
+        "type": "delux",
+        "pricePerNight": "1150",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "D58HFG6895GEE6",
+        "type": "delux",
+        "pricePerNight": "2850",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      }
+    ],
+    "availableRoom":3,
+    "createdAt": "2023-03-06T10:37:04.640Z",
+    "updatedAt": "2023-03-06T10:37:04.640Z"
+  },
+  {
+    "id": "HSDF87F687RG",
+    "hotelName": "JW Marriot",
+    "ownerId": "OS6GER698G7G",
+    "ownerName": "Ram singh",
+    "ownerAddress": {
+      "location": "Kolkata",
+      "state": "west Bengal",
+      "pincode": "712155",
+      "country": "India",
+      "contact": "7885948273",
+      "countryCode": "+91",
+      "email": "ram.singh@gmail.com"
+    },
+    "address": {
+      "location": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "712144",
+      "country": "India",
+      "contact": "9564674561",
+      "countryCode": "+91"
+    },
+    "room": [
+      {
+        "id": "R5895E6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "2250",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": true
+      },
+      {
+        "id": "R78H5OIFR5GEE6",
+        "type": "delux",
+        "pricePerNight": "2150",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": true
+      },
+      {
+        "id": "R59HFG6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "1850",
+        "currency": "INR",
+        "bedType": "single",
+        "hasAc": false,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false
+      }
+    ],
+    "availableRoom":2,
+    "createdAt": "2023-03-06T10:37:04.640Z",
+    "updatedAt": "2023-03-06T10:37:04.640Z"
+  },
+  {
+    "id": "HWDF87F687RG",
+    "hotelName": "ITC Royal Bengal",
+    "ownerId": "O78GER698G7G",
+    "ownerName": "Nakul Anand",
+    "ownerAddress": {
+      "location": "Kolkata",
+      "state": "west Bengal",
+      "pincode": "712155",
+      "country": "India",
+      "contact": "7885948273",
+      "countryCode": "+91",
+      "email": "nakul.anand@gmail.com"
+    },
+    "address": {
+      "location": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "712184",
+      "country": "India",
+      "contact": "9444674561",
+      "countryCode": "+91"
+    },
+    "room": [
+      {
+        "id": "R5897E6FR5GEE6",
+        "type": "delux",
+        "pricePerNight": "4850",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "R78H5OIFR5GE86",
+        "type": "delux",
+        "pricePerNight": "5150",
+        "currency": "INR",
+        "bedType": "double",
+        "hasAc": true,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      },
+      {
+        "id": "R59HFG6FR5G8E6",
+        "type": "delux",
+        "pricePerNight": "2850",
+        "currency": "INR",
+        "bedType": "single",
+        "hasAc": false,
+        "allowedType": ["adults", "children"],
+        "hasDiscount": false,
+        "isBooked": false
+      }
+    ],
+    "availableRoom":3,
+    "createdAt": "2023-03-06T10:37:04.640Z",
+    "updatedAt": "2023-03-06T10:37:04.640Z"
+  }
+]
