@@ -17,7 +17,7 @@ const apiTokenSecretKey = process.env.API_TOKEN_SECRET_KEY;
  * Booking a flight
  * Middleware: need and jwt token for authenticating valid user
  * Description: We are booking a flight for a user
- * API Endpoint Example = /api/booking/flight/:flightId
+ * API Endpoint Example = /api/booking/flight/S5G5S6DFS63S
  */
 router.post("/flight/:flightId", requiredAuth, async (req, res, next) => {
   try {
@@ -100,7 +100,7 @@ router.post("/flight/:flightId", requiredAuth, async (req, res, next) => {
  * Booking a hotel
  * Middleware: need and jwt token for authenticating valid user
  * Description: We are booking a hotel for a user
- * API Endpoint Example = /api/booking/hotel/:hotelId
+ * API Endpoint Example = /api/booking/hotel/HSDF87F687RG
  */
 router.post("/hotel/:hotelId", requiredAuth, async (req, res, next) => {
   try {
