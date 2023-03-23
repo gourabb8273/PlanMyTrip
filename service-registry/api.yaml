@@ -30,6 +30,13 @@ paths:
             example: "1.0.0" 
           required: true
           description: Service version
+        - in: path
+          name: serviceport
+          schema:
+            type: string
+            example: "8081" 
+          required: true
+          description: Service port
       responses:
         '200':
           description: Service is found successfully. 
