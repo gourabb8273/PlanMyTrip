@@ -30,7 +30,7 @@
 ## Middlewares
   ### Ratelimit:
     We are limiting multiple api calls in a given time to avoid D-Dos attack
-    source: /middleware/rateLimit (currenlty having limit of 60 requests with in 1 mintue we can change the limit and time)
+    source: /middleware/rateLimit.js (currenlty having limit of 60 requests with in 1 mintue we can change the limit and time)
 
   ### Caching:
     using caching to improve the response time

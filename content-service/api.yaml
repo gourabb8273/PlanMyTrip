@@ -5,21 +5,12 @@ info:
   version: 1.0 
   
 servers:
-  - url: http://localhost:8082/
+  - url: http://localhost:9000/search
     description:  Local server 
- 
-# components:
-#   securitySchemes:
-#     token:   
-#       type: apiKey
-#       in: header       
-#       name: token
-      
+  
 paths:  
   /api/flight:
     get:
-      # security:
-      #   - token: []
       tags:
         - Showing all available flight
       summary: Showing all available flight. 
