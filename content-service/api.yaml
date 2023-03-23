@@ -24,8 +24,6 @@ paths:
           description: Unexpected error
   /api/flight/{departure}/{arrival}:
     get:
-      # security:
-      #   - token: []
       tags:
         - Showing available flight based on departure and arrival location
       summary: Showing available flight based on departure and arrival location. 
@@ -61,8 +59,6 @@ paths:
   
   /api/flight/{departure}/{arrival}/{dayNum}:
     get:
-      # security:
-      #   - token: []
       tags:
         - Showing available flight based on departure, arrival location and day
       summary: Showing available flight based on departure, arrival location and day 
@@ -106,8 +102,6 @@ paths:
           description: Unexpected error
   /api/hotel:
     get:
-      # security:
-      #   - token: []
       tags:
         - Showing all available hotel
       summary: Showing all available hotel. 
@@ -121,8 +115,6 @@ paths:
           description: Unexpected error
   /api/hotel/{location}:
     get:
-      # security:
-      #   - token: []
       tags:
         - Showing all available hotel based on location
       summary: Showing all available hotel based on location. 

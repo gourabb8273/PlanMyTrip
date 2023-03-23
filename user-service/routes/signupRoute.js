@@ -29,7 +29,6 @@ const validatePhoneNumber = (phone) => {
  */
 router.post("/", async (req, res, next) => {
   if (!req.body) return res.status(400).send("Invalid request body");
-
   const { username, email, password, role, phone } = req.body;
   try {
     //check whether entered credentials is valid
@@ -107,7 +106,8 @@ router.post("/", async (req, res, next) => {
       role,
     };
     userData.push(user);
-    fs.writeFileSync(userInfoPath, JSON.stringify(userData), (err) => {
+
+    fs.writeFile(userInfoPath, JSON.stringify(userData), (err) => {
       if (err) throw err;
       logger.info(`user is saved successfully ${JSON.stringify(user)}`);
     });

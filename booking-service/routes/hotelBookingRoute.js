@@ -21,7 +21,7 @@ const logger = require("../logger");
  *       need an api token to authenticate b/w microservces from postman API_TOKEN_KEY
  *       need a jwt token for authenticating valid user (communication within microservices)
  * Description: We are booking a hotel or hotel for a user
- * API Endpoint Example = /api/hotel/:hotelId
+ * API Endpoint Example = /api/hotel/HSDF87F687RG
  */
 router.post("/:hotelId", requiredAuthToken, async (req, res, next) => {
   try {
@@ -119,12 +119,7 @@ router.post("/:hotelId", requiredAuthToken, async (req, res, next) => {
       await fs.readFileSync(hotelBookingPath)
     );
     hotelBookingInfo.push(bookingInfo);
-    // storing Payment in database
-    // check later
-    // fs.writeFile(hotelBookingPath, JSON.stringify(hotelBookingInfo), (err) => {
-    //   if (err) throw err;
-    //   logger.error(`hotel booking is ${status}`);
-    // });
+    
     // sending notification to user
     const type = ["In-App", "Email", "Sms", "Push"];
     const notifyUser = {

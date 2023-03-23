@@ -22,8 +22,8 @@ paths:
         - token: []
       tags:
         - Sending Notification 
-      summary: Sending In App, Email, Phone, and Push Notification  notification. 
-      description: <b>sending In App, Email, Phone, and Push Notification  notification</b> <br /> <br />    
+      summary: Sending In App, Email, Phone, and Push Notification. 
+      description: <b>sending In App, Email, Phone, and Push Notification</b> <br /> <br />    
       post:
       requestBody:
         required: true

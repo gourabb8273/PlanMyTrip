@@ -37,7 +37,6 @@ class ServiceRegistry {
   }
 
   register(name, version, ip, port) {
-    // this.cleanup();
     const key = name + version + ip + port;
 
     if (!this.services[key]) {
@@ -100,16 +99,6 @@ class ServiceRegistry {
       }
     );
     return { message: `${name} is de-registered successfully`, result: key };
-  }
-
-  cleanup() {
-    const now = Math.floor(new Date() / 1000);
-    Object.keys(this.services).forEach((key) => {
-      if (this.services[key].timestamp + this.timeout < now) {
-        delete this.services[key];
-        logger.info(`Removed service ${key}`);
-      }
-    });
   }
 }
 

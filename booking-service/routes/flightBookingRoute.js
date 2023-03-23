@@ -19,9 +19,9 @@ const apiTokenSecretKey = process.env.API_TOKEN_SECRET_KEY;
  * Booking a flight
  * Middleware:
  *       need an api token to authenticate b/w microservces from postman API_TOKEN_KEY
- *       need and jwt token for authenticating valid user (communication within microservices)
+ *       need a jwt token for authenticating valid user (communication within microservices)
  * Description: We are booking a flight or hotel for a user
- * API Endpoint Example = /api/flight/:flightId
+ * API Endpoint Example = /api/flight/S5G5S6DFS63S
  */
 router.post("/:flightId", requiredAuthToken, async (req, res, next) => {
   try {
@@ -121,17 +121,6 @@ router.post("/:flightId", requiredAuthToken, async (req, res, next) => {
       await fs.readFileSync(flightBookingPath)
     );
     flightBookingInfo.push(bookingInfo);
-    //storing Payment in database
-    //check later
-    // fs.writeFile(
-    //   flightBookingPath,
-    //   JSON.stringify(flightBookingInfo),
-    //   (err) => {
-    //     if (err) throw err;
-    //     logger.error(`Flight booking is ${status}`);
-    //   }
-    // );
-
     //sending notification to user
     const type = ["In-App", "Email", "Sms", "Push"];
     const notifyUser = {

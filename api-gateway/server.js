@@ -7,8 +7,6 @@ const logger = require("./logger")
 
 const app = express();
 
-
-
 const port = process.env.SERVICE_PORT || 9001;
 
 const authCheck = (req, res, next) => {

@@ -9,9 +9,6 @@ const notifyRoute = require("./routes/notificationRoute");
 
 const config = require("./config")["development"];
 
-// const log = config.log();
-// const service = require("./server/service")(config);
-
 const { swaggerServe, swaggerSetup } = require("./swagger/config");
 
 const app = express();

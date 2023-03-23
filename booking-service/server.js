@@ -9,8 +9,6 @@ const hotelBookingRoute = require("./routes/hotelBookingRoute");
 const logger = require("./logger");
 
 const config = require("./config")["development"];
-// const log = config.log();
-// const service = require("./server/service")(config);
 
 const { swaggerServe, swaggerSetup } = require("./swagger/config");
 

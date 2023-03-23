@@ -84,20 +84,19 @@ router.post("/:bookingId", requiredAuthToken, async (req, res, next) => {
 
     paymentInfo.push(newInvoice);
     // storing Payment in database
-    //check later
-    // fs.writeFileSync(
-    //   path.join(process.cwd(), "models/payment.txt"),
-    //   JSON.stringify(paymentInfo),
-    //   (err) => {
-    //     if (err) {
-    //       logger.info(JSON.stringify(err));
-    //       throw err;
-    //     }
-    //     logger.info(
-    //       `Payment is saved successfully ${JSON.stringify(newInvoice)}`
-    //     );
-    //   }
-    // );
+    fs.writeFile(
+      path.join(process.cwd(), "models/payment.txt"),
+      JSON.stringify(paymentInfo),
+      (err) => {
+        if (err) {
+          logger.info(JSON.stringify(err));
+          throw err;
+        }
+        logger.info(
+          `Payment is saved successfully ${JSON.stringify(newInvoice)}`
+        );
+      }
+    );
 
     // sending notification to user
     const type = ["In-App", "Email", "Sms", "Push"];

@@ -57,9 +57,9 @@ router.post("/", requiredAuthToken, async (req, res, next) => {
     const id = uuidv1();
     const createdAt = new Date();
 
-    // const notificationData = JSON.parse(
-    //   await fs.readFileSync(notificationPath)
-    // );
+    const notificationData = JSON.parse(
+      await fs.readFileSync(notificationPath)
+    );
     const newNotification = {
       id,
       createdAt,
@@ -67,16 +67,7 @@ router.post("/", requiredAuthToken, async (req, res, next) => {
       notificationMessage: message,
       type,
     };
-    // notificationData.push(newNotification);
-
-    // logger.info(notificationPath)
-    // fs.writeFileSync(notificationPath, JSON.stringify(notificationData), (err) => {
-    //   if (err) throw err;
-    //   logger.info(
-    //     `notification is saved successfully ${JSON.stringify(newNotification)}`
-    //   );
-    // });
-
+    notificationData.push(newNotification);
     res.status(201).json({
       message: `Notification send successfully`,
       response: newNotification,
